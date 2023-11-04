@@ -20,7 +20,7 @@ Phần mềm sẽ tích hợp API của các công cụ AI như ChatGPT 3.5 và 
 Các công cụ AI được sử dụng trong dự án này bao gồm:
 - **ChatGPT 3.5**: Một mô hình AI có thể tạo ra nội dung văn bản dựa trên một prompt được nhập vào.
 - **Heygen**: Một mô hình AI có thể tạo ra video từ nội dung văn bản.
-> Ghi chú: Trong quá trình nghiên cứu và kiểm thử đầu vào thì mô hìnhChatGPT 3.5 và Heygen đã cho ra kết quả tốt hơn so với các mô hình AI khác. Đặc biệt, khả năng tạo ra nội dung văn bản và video chất lượng cao của hai mô hình này đã đưa chúng lên vị trí hàng đầu trong danh sách công cụ được sử dụng cho dự án này. 
+> Ghi chú: Trong quá trình nghiên cứu và kiểm thử đầu vào thì mô hình ChatGPT 3.5 và Heygen đã cho ra kết quả tốt hơn so với các mô hình AI khác. Đặc biệt, khả năng tạo ra nội dung văn bản và video chất lượng cao của hai mô hình này đã đưa chúng lên vị trí hàng đầu trong danh sách công cụ được sử dụng cho dự án này. 
 
 ## Liên Hệ
 - **Email:** duongthanhtan17@gmail.com
