@@ -11,9 +11,9 @@
     <a href="https://www.heygen.com/terms"><img src="https://img.shields.io/badge/License-HeyGen-%23770ef8" alt="Điều khoản HeyGen"></a>
 </p>
 
-## Giới thiệu tổng quan
+## Giới Thiệu Tổng Quan
 Dự án tập trung vào việc nghiên cứu và sử dụng các công cụ AI để tạo ra một AI Streamer chuyên livestream bán sản phẩm. Mục tiêu là tạo ra một ứng dụng có thể tự động tạo video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer thực.
 
-## Liên hệ
+## Liên Hệ
 - **Email:** duongthanhtan17@gmail.com
 - **Số điện thoại:** 0788942313
