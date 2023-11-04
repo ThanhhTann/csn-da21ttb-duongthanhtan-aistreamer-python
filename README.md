@@ -10,7 +10,7 @@
     <a href="https://openai.com/policies/terms-of-use"><img src="https://img.shields.io/badge/License-Openai-%23770ef8" alt="Điều khoản Openai"></a>
     <a href="https://www.heygen.com/terms"><img src="https://img.shields.io/badge/License-HeyGen-%23770ef8" alt="Điều khoản HeyGen"></a>
 </p>
-## Giới liệu
+## Giới thiệu
 
 ## Liên hệ
 - **Email:** duongthanhtan17@gmail.com
