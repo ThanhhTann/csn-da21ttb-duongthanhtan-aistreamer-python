@@ -12,7 +12,7 @@
 </p>
 
 ## Giới thiệu tổng quan
-Dự án này tập trung vào việc nghiên cứu và sử dụng các công cụ AI để tạo ra một AI Streamer chuyên livestream bán sản phẩm. Mục tiêu là tạo ra một ứng dụng có thể tự động tạo video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer thực.
+Dự án tập trung vào việc nghiên cứu và sử dụng các công cụ AI để tạo ra một AI Streamer chuyên livestream bán sản phẩm. Mục tiêu là tạo ra một ứng dụng có thể tự động tạo video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer thực.
 
 ## Liên hệ
 - **Email:** duongthanhtan17@gmail.com
