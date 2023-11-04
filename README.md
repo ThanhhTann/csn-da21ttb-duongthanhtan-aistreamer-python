@@ -27,6 +27,8 @@ Các công cụ AI được sử dụng trong dự án này bao gồm:
 > Ghi chú: Đang cập nhật
 
 ## Khởi Tạo Môi Trường 
+- [Đang cập nhật]
+> Ghi chú: Đang cập nhật
 
 ## Tài Liệu Tham Khảo
 - [Đang cập nhật]
