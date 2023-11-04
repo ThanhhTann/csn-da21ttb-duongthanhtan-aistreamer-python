@@ -13,13 +13,14 @@
 
 ## Giới Thiệu Tổng Quan
 Dự án tập trung vào việc nghiên cứu và sử dụng các công cụ AI để tạo ra một AI Streamer chuyên livestream bán sản phẩm. Mục tiêu là tạo ra một ứng dụng có thể tự động tạo video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer thực.
-> Note: Mục tiêu chính của dự án này là khám phá và tận dụng sức mạnh của AI bằng cách tích hợp API, mở ra những khả năng mới trong việc tạo ra nội dung và tương tác với người dùng.
+> Ghi chú: Mục tiêu chính của dự án này là khám phá và tận dụng sức mạnh của AI bằng cách tích hợp API, mở ra những khả năng mới trong việc tạo ra nội dung và tương tác với người dùng.
 
 ## Mô Tả Chi Tiết
 Phần mềm sẽ tích hợp API của các công cụ AI như ChatGPT 3.5 và Heygen để tạo ra nội dung văn bản và video. Khi nhập vào thông tin về một loại sản phẩm, ứng dụng sẽ tạo ra một video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer chuyên bán sản phẩm.
 Các công cụ AI được sử dụng trong dự án này bao gồm:
 - **ChatGPT 3.5**: Một mô hình AI có thể tạo ra nội dung văn bản dựa trên một prompt được nhập vào.
 - **Heygen**: Một mô hình AI có thể tạo ra video từ nội dung văn bản.
+> Ghi chú: Trong quá trình nghiên cứu và kiểm thử đầu vào thì mô hìnhChatGPT 3.5 và Heygen đã cho ra kết quả tốt hơn so với các mô hình AI khác. Đặc biệt, khả năng tạo ra nội dung văn bản và video chất lượng cao của hai mô hình này đã đưa chúng lên vị trí hàng đầu trong danh sách công cụ được sử dụng cho dự án này. 
 
 ## Liên Hệ
 - **Email:** duongthanhtan17@gmail.com
