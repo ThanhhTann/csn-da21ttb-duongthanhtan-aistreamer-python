@@ -10,12 +10,11 @@
     <a href="https://openai.com/policies/terms-of-use"><img src="https://img.shields.io/badge/License-Openai-%23770ef8" alt="Điều khoản Openai"></a>
     <a href="https://www.heygen.com/terms"><img src="https://img.shields.io/badge/License-HeyGen-%23770ef8" alt="Điều khoản HeyGen"></a>
 </p>
-## Giới thiệu
 
+## Giới thiệu
 - **Email:** duongthanhtan17@gmail.com
 - **Số điện thoại:** 0788942313
 
 ## Liên hệ
-
 - **Email:** duongthanhtan17@gmail.com
 - **Số điện thoại:** 0788942313
