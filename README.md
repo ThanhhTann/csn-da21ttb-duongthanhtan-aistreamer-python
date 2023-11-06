@@ -23,7 +23,8 @@ Các công cụ AI được sử dụng trong dự án này bao gồm:
 > Ghi chú: Trong quá trình nghiên cứu và kiểm thử đầu vào thì mô hìnhChatGPT 3.5 và Heygen đã cho ra kết quả tốt hơn so với các mô hình AI khác. Đặc biệt, khả năng tạo ra nội dung văn bản và video chất lượng cao của hai mô hình này đã đưa chúng lên vị trí hàng đầu trong danh sách công cụ được sử dụng cho dự án này. 
 
 ## Thiếp Lập Môi Trường
-- [Đang cập nhật]
+**A. Thiết lập môi trường Python:**  
+- <a href="https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe">Python 3.15</a>
 > Ghi chú: Đang cập nhật
 
 ## Khởi Tạo Môi Trường 
