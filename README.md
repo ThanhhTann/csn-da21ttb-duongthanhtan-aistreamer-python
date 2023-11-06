@@ -12,7 +12,7 @@
 </p>
 
 ## Giới Thiệu Tổng Quan
-Dự án nhằm mục đích nghiên cứu và ứng dụng API của các công cụ AI để phát triển một phần mềm AI Streamer trong lĩnh vực livestream bán hàng. Dự án mong muốn xây dựng một phần mềm có khả năng tự động tạo ra video giới thiệu sản phẩm với hình ảnh và âm thanh thông qua việc nhập prompt.
+Dự án nhằm mục đích nghiên cứu và ứng dụng API của các công cụ AI để phát triển thành một phần mềm AI Streamer trong lĩnh vực livestream bán hàng. Dự án mong muốn xây dựng một phần mềm có khả năng tự động tạo ra video giới thiệu sản phẩm với hình ảnh và âm thanh thông qua việc nhập prompt.
 > Ghi chú: Dự án này không nhằm mục đích thương mại hay cạnh tranh, mục tiêu của dự án chỉ khám phá và tận dụng sức mạnh của AI bằng cách kết hợp các API, mở ra những tiềm năng mới trong việc tạo ra nội dung và tương tác với người dùng.
 
 ## Mô Tả Chi Tiết
