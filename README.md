@@ -12,8 +12,8 @@
 </p>
 
 ## Giới Thiệu Tổng Quan
-Dự án tập trung vào việc nghiên cứu và sử dụng các công cụ AI để tạo ra một AI Streamer chuyên livestream bán sản phẩm. Mục tiêu là tạo ra một ứng dụng có thể tự động tạo video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer thực.
-> Ghi chú: Mục tiêu chính của dự án này là khám phá và tận dụng sức mạnh của AI bằng cách tích hợp API, mở ra những khả năng mới trong việc tạo ra nội dung và tương tác với người dùng.
+Dự án nhằm mục đích nghiên cứu và ứng dụng API của các công cụ AI để phát triển một phần mềm AI Streamer trong lĩnh vực livestream bán hàng. Dự án mong muốn xây dựng một phần mềm có khả năng tự động tạo ra video giới thiệu sản phẩm với hình ảnh và âm thanh thông qua việc nhập prompt.
+> Ghi chú: Dự án này không nhằm mục đích thương mại hay cạnh tranh, mục tiêu của dự án chỉ khám phá và tận dụng sức mạnh của AI bằng cách kết hợp các API, mở ra những tiềm năng mới trong việc tạo ra nội dung và tương tác với người dùng.
 
 ## Mô Tả Chi Tiết
 Phần mềm sẽ tích hợp API của các công cụ AI như ChatGPT 3.5 và Heygen để tạo ra nội dung văn bản và video. Khi nhập vào thông tin về một loại sản phẩm, phần mềm sẽ tạo ra một video giới thiệu sản phẩm với hình ảnh và âm thanh như một streamer chuyên bán sản phẩm.
