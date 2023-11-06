@@ -16,7 +16,7 @@ Dự án nhằm mục đích nghiên cứu và ứng dụng API của các công
 > Ghi chú: Dự án này không nhằm mục đích thương mại hay cạnh tranh, mục tiêu của dự án chỉ khám phá và tận dụng sức mạnh của AI bằng cách kết hợp các API, mở ra những tiềm năng mới trong việc tạo ra nội dung và tương tác với người dùng.
 
 ## Mô Tả Chi Tiết
-Phần mềm sẽ sử dụng API của các công cụ AI như ChatGPT 3.5 và Heygen để tạo ra nội dung văn bản và video từ prompt của người dùng nhập vào. Khi nhận được dữ liệu đầu vào, phần mềm sẽ tạo ra một video giới thiệu sản phẩm với hình ảnh và âm thanh giống như một streamer chuyên nghiệp.
+Phần mềm sẽ sử dụng API của các công cụ AI như ChatGPT 3.5 và Heygen để tạo ra nội dung văn bản và video từ prompt của người dùng nhập vào. Khi nhận được dữ liệu đầu vào, phần mềm sẽ tạo ra một video giới thiệu sản phẩm với hình ảnh và âm thanh giống như một streamer chuyên nghiệp.  
 Các công cụ AI được sử dụng trong dự án này bao gồm:
 - **ChatGPT 3.5**: Một mô hình AI có khả năng sinh ra nội dung văn bản theo một đầu vào cho trước.
 - **Heygen**: Một mô hình AI có khả năng sinh ra video từ nội dung văn bản.
