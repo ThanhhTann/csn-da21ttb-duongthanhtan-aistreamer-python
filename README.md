@@ -29,11 +29,11 @@ Các công cụ AI được sử dụng trong dự án này bao gồm:
 
 ## Khởi Tạo Môi Trường 
 - [Đang cập nhật]
-> Ghi chú: Đang cập nhật
+> Ghi chú: Đang cập nhật.
 
 ## Tài Liệu Tham Khảo
 - [Đang cập nhật]
-> Ghi chú: Đang cập nhật
+> Ghi chú: Đang cập nhật.
 
 ## Liên Hệ
 - **Email:** duongthanhtan17@gmail.com
