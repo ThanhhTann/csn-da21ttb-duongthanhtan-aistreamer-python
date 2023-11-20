@@ -11,12 +11,14 @@ from PyQt5.QtCore import QUrl
 from openai import OpenAI
 from cachetools import cached, TTLCache
 
-api_key = 'API_key'
-client = OpenAI(api_key="API_key")
+
+authorization = "API_KEY"
+
+client = OpenAI(api_key="API_KEY")
 
 app = QApplication([])
 
-# Create a cache for product info with a Time-To-Live (TTL) of 5 minutes
+
 cache = TTLCache(maxsize=100, ttl=300)
 
 @cached(cache)
@@ -25,29 +27,11 @@ def get_product_info(product_name):
       model="gpt-3.5-turbo",
       messages=[
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": f"Tell me about the product: {product_name}"}
+        {"role": "user", "content": f"Translate into Vietnamese the following content: Viết một đoạn giới thiệu khoảng 100 từ về sản phẩm {product_name}, đoạn văn cần phải hấp dẫn và logic, giống như lời quảng cáo của một MC (xưng hô là em), trình bày trong một đoạn duy nhất, không xuống dòng."}
       ],
-      max_tokens=50
+      max_tokens=300
     )
     return completion.choices[0].message.content.strip()
-
-def get_video_url(video_id):
-    check_url = 'https://api.heygen.com/v1/video_status.get'
-    params = {'video_id': video_id,}
-    headers = {
-        'X-Api-Key': api_key,
-        'Content-Type': 'application/json',
-    }
-    timeout = time.time() + 60*5  # 5 minutes from now
-    while True:
-        if time.time() > timeout:
-            print("Timeout while waiting for video to be ready.")
-            return None
-        response = requests.get(check_url, params=params, headers=headers)
-        status_response = response.json()
-        if status_response['code'] == 100 and status_response['data']['status'] == 'completed':
-            return status_response['data']['video_url']
-        time.sleep(10)
 
 class VideoWindow(QMainWindow):
     def __init__(self):
@@ -81,65 +65,99 @@ class VideoWindow(QMainWindow):
 
         central_widget.setLayout(central_layout)
         self.setCentralWidget(central_widget)
-        self.button.clicked.connect(self.open_video_window)
-        self.video_button.clicked.connect(self.play_video) 
+        self.button.clicked.connect(self.create_prompt)
+        self.video_button.clicked.connect(self.create_video_and_play) 
         self.label.setText('Nhập nội dung vào đây:')
         self.showMaximized()
         
-        # Set the stretch factors for the two columns in the layout
+        
         central_layout.setStretchFactor(left_layout, 1)
         central_layout.setStretchFactor(right_layout, 1) 
 
-    def open_video_window(self):
+    def create_prompt(self):
         product_info = get_product_info(self.input_text.text())
         self.output_text.setText(product_info)
         self.product_info = product_info 
 
-        # Send request to create video and get video_id
-        create_url = 'https://api.heygen.com/v1/video.generate'
-        headers = {
-            'X-Api-Key': api_key,
-            'Content-Type': 'application/json',
-        }
-        data = {
-            "background": "#ffffff",
-            "clips": [
-                {
-                    "avatar_id": "Daisy-inskirt-20220818",
-                    "avatar_style": "normal",
-                    "input_text": self.product_info,
-                    "offset": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "scale": 1,
-                    "voice_id": "1bd001e7e50f421d891986aad5158bc8"
-                }
-            ],
-            "ratio": "16:9",
-            "test": True,
-            "version": "v1alpha"
-        }
-        response = requests.post(create_url, headers=headers, data=json.dumps(data))
-        if response.status_code == 200:
-            response_data = response.json()
-            self.video_id = response_data['data']['video_id']  # Save video_id
+    def create_video_and_play(self):
+        if not hasattr(self, 'product_info'):
+            print("Error: No prompt to create a video. Please create a prompt first.")
+            return
+        
+        video_id = self.create_video(self.product_info)
+        if video_id:
+            self.video_id = video_id
+            self.play_video() 
 
     def play_video(self):
         if not hasattr(self, 'video_id'):
             print("Error: No video to play. Please create a prompt first.")
             return
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            future = executor.submit(get_video_url, self.video_id)  # Use self.video_id
+            future = executor.submit(self.get_video_url, self.video_id)
             video_url = future.result()
         if video_url is not None:
-            with tempfile.NamedTemporaryFile(delete=False, suffix=".mp4") as temp_file:
-                print("Downloading video...")
-                response = requests.get(video_url)
-                temp_file.write(response.content)
-                print("Playing video...")
-                self.player.setMedia(QMediaContent(QUrl.fromLocalFile(temp_file.name)))
-                self.player.play()
+            self.download_and_play_video(video_url, self.player)
+
+    def create_video(self, product_info):
+        url = "https://api.d-id.com/talks"
+        payload = {
+            "script": {
+                "type": "text",
+                "subtitles": "false",
+                "provider": {
+                    "type": "microsoft",
+                    "voice_id": "vi-VN-HoaiMyNeural"
+                },
+                "ssml": "false",
+                "input": product_info
+            },
+            "config": {
+                "fluent": "false",
+                "pad_audio": "0.0"
+            },
+            "source_url": "https://cdn.leonardo.ai/users/c8e3a1d1-2484-481c-9a37-4a72554c4c64/generations/6f5d461f-1003-49d3-9ffa-77dc539858d9/variations/alchemyrefiner_alchemymagic_2_6f5d461f-1003-49d3-9ffa-77dc539858d9_0.jpg"
+        }
+        headers = {
+            "accept": "application/json",
+            "content-type": "application/json",
+            "authorization": authorization
+        }
+        response = requests.post(url, json=payload, headers=headers)
+        response_data = response.json()
+        
+        id = response_data.get('id')
+        print(f"Video_id: {id}")
+        return id
+
+    def get_video_url(self, video_id):
+        url = f"https://api.d-id.com/talks/{video_id}"
+        headers = {
+            "accept": "application/json",
+            "authorization": authorization
+        }
+
+        while True:
+            response = requests.get(url, headers=headers)
+            response_data = response.json()
+
+            result_url = response_data.get('result_url')
+
+            if result_url is not None:
+                print(f"Video_result_url: {result_url}")
+                return result_url
+            else:
+                print("Đang tiến hành GET lại sau 1 giây!!")
+                time.sleep(1)
+
+    def download_and_play_video(self, video_url, player):
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp4") as temp_file:
+            print("Đang tải video...")
+            response = requests.get(video_url)
+            temp_file.write(response.content)
+            print("Đang phát video...")
+            player.setMedia(QMediaContent(QUrl.fromLocalFile(temp_file.name)))
+            player.play()
 
 video_window = VideoWindow()
 video_window.show()
