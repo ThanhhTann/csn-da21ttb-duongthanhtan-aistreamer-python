@@ -6,18 +6,16 @@ import tempfile
 import concurrent.futures
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from PyQt5.QtMultimediaWidgets import QVideoWidget
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLineEdit, QLabel, QTextEdit
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLineEdit, QLabel, QTextEdit, QComboBox
 from PyQt5.QtCore import QUrl
 from openai import OpenAI
 from cachetools import cached, TTLCache
 
+authorization = "Basic ZURJM2FIQnhlbWh4WkVCd2NtbDJZWFJsY21Wc1lYa3VZWEJ3YkdWcFpDNWpiMjA6ZU1DTzhiZnE0My1yOUF4VFhzSTlC"
 
-authorization = "API_KEY"
-
-client = OpenAI(api_key="API_KEY")
+client = OpenAI(api_key="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")
 
 app = QApplication([])
-
 
 cache = TTLCache(maxsize=100, ttl=300)
 
@@ -27,9 +25,9 @@ def get_product_info(product_name):
       model="gpt-3.5-turbo",
       messages=[
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": f"Translate into Vietnamese the following content: Viết một đoạn giới thiệu khoảng 100 từ về sản phẩm {product_name}, đoạn văn cần phải hấp dẫn và logic, giống như lời quảng cáo của một MC (xưng hô là em), trình bày trong một đoạn duy nhất, không xuống dòng."}
+        {"role": "user", "content": f"Translate into Vietnamese the following content: Viết đoạn giới thiệu về sản phẩm {product_name}, đoạn văn cần phải hấp dẫn và logic, giống như lời quảng cáo của một MC (xưng hô là em), đoạn văn chỉ 30 từ."}
       ],
-      max_tokens=300
+      max_tokens=500
     )
     return completion.choices[0].message.content.strip()
 
@@ -39,11 +37,17 @@ class VideoWindow(QMainWindow):
         self.video_widget = QVideoWidget()
         self.player = QMediaPlayer(None, QMediaPlayer.VideoSurface)
         self.player.setVideoOutput(self.video_widget)
+        self.setWindowTitle("AI Streamer") 
         self.button = QPushButton('Tạo promt')
         self.video_button = QPushButton('Tạo video') 
         self.input_text = QLineEdit()
         self.label = QLabel()
         self.output_text = QTextEdit()
+        self.voice_combobox = QComboBox()
+        self.voice_combobox.addItem("Nam")
+        self.voice_combobox.addItem("Nữ")
+        self.voice_combobox.setFixedWidth(100)
+        self.voice_label = QLabel("Chọn voice:")
         self.setup_ui()
     
     def setup_ui(self):
@@ -52,9 +56,15 @@ class VideoWindow(QMainWindow):
         left_layout = QVBoxLayout() 
         right_layout = QVBoxLayout() 
 
+        voice_layout = QHBoxLayout()
+        voice_layout.addStretch(1)  # Add a stretchable space before the label and combobox
+        voice_layout.addWidget(self.voice_label)
+        voice_layout.addWidget(self.voice_combobox)
+
         left_layout.addWidget(self.label)
         left_layout.addWidget(self.input_text)
         left_layout.addWidget(self.output_text)
+        left_layout.addLayout(voice_layout)
         left_layout.addWidget(self.button)
         left_layout.addWidget(self.video_button)
 
@@ -79,27 +89,8 @@ class VideoWindow(QMainWindow):
         self.output_text.setText(product_info)
         self.product_info = product_info 
 
-    def create_video_and_play(self):
-        if not hasattr(self, 'product_info'):
-            print("Error: No prompt to create a video. Please create a prompt first.")
-            return
-        
-        video_id = self.create_video(self.product_info)
-        if video_id:
-            self.video_id = video_id
-            self.play_video() 
-
-    def play_video(self):
-        if not hasattr(self, 'video_id'):
-            print("Error: No video to play. Please create a prompt first.")
-            return
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            future = executor.submit(self.get_video_url, self.video_id)
-            video_url = future.result()
-        if video_url is not None:
-            self.download_and_play_video(video_url, self.player)
-
     def create_video(self, product_info):
+        voice_id = "vi-VN-NamMinhNeural" if self.voice_combobox.currentText() == "Nam" else "vi-VN-HoaiMyNeural"
         url = "https://api.d-id.com/talks"
         payload = {
             "script": {
@@ -107,16 +98,17 @@ class VideoWindow(QMainWindow):
                 "subtitles": "false",
                 "provider": {
                     "type": "microsoft",
-                    "voice_id": "vi-VN-HoaiMyNeural"
+                    "voice_id": voice_id
                 },
                 "ssml": "false",
                 "input": product_info
             },
             "config": {
                 "fluent": "false",
-                "pad_audio": "0.0"
+                "pad_audio": "0.0",
+                "stitch": "true"
             },
-            "source_url": "https://cdn.leonardo.ai/users/c8e3a1d1-2484-481c-9a37-4a72554c4c64/generations/6f5d461f-1003-49d3-9ffa-77dc539858d9/variations/alchemyrefiner_alchemymagic_2_6f5d461f-1003-49d3-9ffa-77dc539858d9_0.jpg"
+            "source_url": "https://create-images-results.d-id.com/DefaultPresenters/santa_f_ai/image.jpeg"
         }
         headers = {
             "accept": "application/json",
@@ -158,6 +150,12 @@ class VideoWindow(QMainWindow):
             print("Đang phát video...")
             player.setMedia(QMediaContent(QUrl.fromLocalFile(temp_file.name)))
             player.play()
+
+    def create_video_and_play(self):
+        self.create_prompt()
+        video_id = self.create_video(self.product_info)
+        video_url = self.get_video_url(video_id)
+        self.download_and_play_video(video_url, self.player)
 
 video_window = VideoWindow()
 video_window.show()
