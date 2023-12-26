@@ -11,9 +11,9 @@ from PyQt5.QtCore import QUrl
 from openai import OpenAI
 from cachetools import cached, TTLCache
 
-authorization = "Basic ZURJM2FIQnhlbWh4WkVCd2NtbDJZWFJsY21Wc1lYa3VZWEJ3YkdWcFpDNWpiMjA6ZU1DTzhiZnE0My1yOUF4VFhzSTlC"
+authorization = "API_KEY"
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API_KEY")
 
 app = QApplication([])
 
