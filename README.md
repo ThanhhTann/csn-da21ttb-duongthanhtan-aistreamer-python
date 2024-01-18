@@ -1,14 +1,12 @@
 <h1 align="center"><a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">Phần mềm AI Streamer</a></h1>
 <p align="center">
     <a href="https://openai.com/blog/openai-api"><img src="https://img.shields.io/badge/Openai-API-%23770ef8" alt="Openai"></a>
-    <a href="https://docs.heygen.com/docs"><img src="https://img.shields.io/badge/HeyGen-API-%23770ef8" alt="HeyGen"></a>
     <a href="https://github.com/ThanhhTann"><img src="https://img.shields.io/badge/Author-ThanhTan-red" alt="Author"></a>
     <a href="https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe"><img src="https://img.shields.io/badge/Python-3.12%2064bit-%23770ef8" alt="Python"></a>
     <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z"><img src="https://img.shields.io/badge/FFmpeg-6.0-%23770ef8" alt="FFmpeg"></a>
 </p>
 <p align="center">
     <a href="https://openai.com/policies/terms-of-use"><img src="https://img.shields.io/badge/License-Openai-%23770ef8" alt="Điều khoản Openai"></a>
-    <a href="https://www.heygen.com/terms"><img src="https://img.shields.io/badge/License-HeyGen-%23770ef8" alt="Điều khoản HeyGen"></a>
 </p>
 
 ## Giới Thiệu Tổng Quan
@@ -16,24 +14,49 @@ Dự án nhằm mục đích nghiên cứu và ứng dụng API của các công
 > Ghi chú: Dự án này không nhằm mục đích thương mại hay cạnh tranh, mục tiêu của dự án chỉ khám phá và tận dụng sức mạnh của AI bằng cách kết hợp các API, mở ra những tiềm năng mới trong việc tạo ra nội dung và tương tác với người dùng.
 
 ## Mô Tả Chi Tiết
-Phần mềm sẽ sử dụng API của các công cụ AI như ChatGPT 3.5 và Heygen để tạo ra nội dung văn bản và video từ prompt của người dùng nhập vào. Khi nhận được dữ liệu đầu vào, phần mềm sẽ tạo ra một video giới thiệu sản phẩm với hình ảnh và âm thanh giống như một streamer chuyên nghiệp.  
+Phần mềm sẽ sử dụng API của các công cụ AI như ChatGPT 3.5 và D-ID để tạo ra nội dung văn bản và video từ prompt của người dùng nhập vào. Khi nhận được dữ liệu đầu vào, phần mềm sẽ tạo ra một video giới thiệu sản phẩm với hình ảnh và âm thanh giống như một streamer chuyên nghiệp.  
 Các công cụ AI được sử dụng trong dự án này bao gồm:
 - **ChatGPT 3.5**: Một mô hình AI có khả năng sinh ra nội dung văn bản theo một đầu vào cho trước.
-- **Heygen**: Một mô hình AI có khả năng sinh ra video từ nội dung văn bản.
+- **D-ID**: Một mô hình AI có khả năng sinh ra video từ nội dung văn bản.
 > Ghi chú: Trong quá trình nghiên cứu và kiểm thử đầu vào thì mô hìnhChatGPT 3.5 và Heygen đã cho ra kết quả tốt hơn so với các mô hình AI khác. Đặc biệt, khả năng tạo ra nội dung văn bản và video chất lượng cao của hai mô hình này đã đưa chúng lên vị trí hàng đầu trong danh sách công cụ được sử dụng cho dự án này. 
 
 ## Thiếp Lập Môi Trường
 **A. Thiết lập môi trường Python:**  
 - <a href="https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe">Python 3.15</a>
-> Ghi chú: Đang cập nhật
+- Cài Đặt ffmpeg: Người dùng cần cài đặt ffmpeg để hỗ trợ xử lý và mã hóa video.
+- Cài Đặt K-Lite Codec Pack: K-Lite Codec Pack là một bộ codec hữu ích để giải mã và mã hóa các định dạng âm thanh và video khác nhau.
+- Cài Đặt Python 3.12.1: Python là ngôn ngữ lập trình chính được sử dụng trong dự án. Người dùng cần cài đặt phiên bản Python 3.12.1.
+- Cài Đặt Visual Studio Code: Visual Studio Code là một trình biên tập mã nguồn mở và linh hoạt, được sử dụng để phát triển ứng dụng.
+> Ghi chú: Đang tiến hành áp dụng phần mềm lên Docker
 
 ## Khởi Tạo Môi Trường 
-- [Đang cập nhật]
-> Ghi chú: Đang cập nhật.
-
+- Sau khi cài đặt các môi trường cần thiết, người dùng có thể thực hiện các bước sau:
+Bước 1: Truy cập đường link để clone dự án: https://github.com/ThanhhTann/csnda21ttb-duongthanhtan-aistreamer-python
+Bước 2: Mở dự án bằng Visual Studio Code.
+Bước 3: Mở Terminal bằng cách nhấn tổ hợp Ctrl + ~.
+Bước 4: Nhập: 
+• Set-ExecutionPolicy Unrestricted -Scope Process
+• Set-ExecutionPolicy Unrestricted -Force
+• Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Bước 4: Gõ các lệnh sau để cài đặt các thư viện Python:
+• pip install PyQt5
+• pip install requests
+• pip install Cachetools
+Bước 5: Sau khi cài đặt xong các môi trường cần thiết, người dùng có thể kiểm tra 
+xem môi trường đã được cài đặt thành công hay chưa bằng cách mở Command Prompt 
+và chạy lệnh:
+• python -V
+Bước 6: Khi môi trường đã được cài đặt thành công, người dùng có thể chạy chương 
+trình bằng cách nhấn Ctrl + F5.
+Ngoài ra, người dùng và các nhà phát triển cũng cần chú ý đến cấu hình máy tính tối 
+thiểu để ứng dụng có thể hoạt động một cách ổn định:
+• Hệ điều hành: Windows 10.
+• RAM: 4GB.
+• Dung lượng ổ cứng (HDD hoặc SSD): 1GB.
+• CPU: i3 - 2375M (tối thiểu)
 ## Tài Liệu Tham Khảo
-- [Đang cập nhật]
-> Ghi chú: Đang cập nhật.
+- OpenaAI API
+- D-ID API
 
 ## Liên Hệ
 - **Email:** duongthanhtan17@gmail.com
