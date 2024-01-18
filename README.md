@@ -1,27 +1,28 @@
+<img src="https://i.ibb.co/PNqtH5F/Banner-Git-Hub-AI-Streamer.png">
 <h1 align="center"><a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">Phần mềm AI Streamer</a></h1>
 <p align="center">
     <a href="https://docs.d-id.com/reference/get-started">
-    <img src="https://img.shields.io/badge/D--DI-API-%235014FF" alt="D-ID">
+        <img src="https://img.shields.io/badge/D--DI-API-%235014FF" alt="D-ID">
     </a>
     <a href="https://platform.openai.com/overview">
-    <img src="https://img.shields.io/badge/OpenAI-API-%235014FF" alt="Openai">
+        <img src="https://img.shields.io/badge/OpenAI-API-%235014FF" alt="Openai">
     </a>
     <a href="https://github.com/ThanhhTann">
-    <img src="https://img.shields.io/badge/Author-ThanhTan-red" alt="Author">
+        <img src="https://img.shields.io/badge/Author-ThanhTan-%230E26FF" alt="Author">
     </a>
     <a href="https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe">
-    <img src="https://img.shields.io/badge/Python-3.12.1-%235014FF" alt="Python">
+        <img src="https://img.shields.io/badge/Python-3.12.1-%235014FF" alt="Python">
     </a>
-    <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z">
-    <img src="https://img.shields.io/badge/FFmpeg-6.1.1-%235014FF" alt="FFmpeg">
+    <a href="https://bom.so/2Thd6G">
+        <img src="https://img.shields.io/badge/FFmpeg-6.1.1-%235014FF" alt="FFmpeg">
     </a>
 </p>
 <p align="center">
     <a href="https://openai.com/policies/terms-of-use">
-    <img src="https://img.shields.io/badge/License-OpenAI-%235014FF">
+        <img src="https://img.shields.io/badge/License-OpenAI-%235014FF">
     </a>
     <a href="https://www.d-id.com/studio-end-user-license-agreement">
-    <img src="https://img.shields.io/badge/License-D--ID-%235014FF">
+        <img src="https://img.shields.io/badge/License-D--ID-%235014FF">
     </a>
 </p>
 
