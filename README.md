@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/PNqtH5F/Banner-Git-Hub-AI-Streamer.png">
+<img src="https://i.ibb.co/Fh0z0C4/Banner-Git-Hub-AI-Streamer-900-x-200-px.png">
 <h1 align="center"><a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">Phần mềm AI Streamer</a></h1>
 <p align="center">
     <a href="https://docs.d-id.com/reference/get-started">
