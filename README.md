@@ -31,29 +31,24 @@ Các công cụ AI được sử dụng trong dự án này bao gồm:
 
 ## Khởi Tạo Môi Trường 
 - Sau khi cài đặt các môi trường cần thiết, người dùng có thể thực hiện các bước sau:
-Bước 1: Truy cập đường link để clone dự án: https://github.com/ThanhhTann/csnda21ttb-duongthanhtan-aistreamer-python
-Bước 2: Mở dự án bằng Visual Studio Code.
-Bước 3: Mở Terminal bằng cách nhấn tổ hợp Ctrl + ~.
-Bước 4: Nhập: 
-• Set-ExecutionPolicy Unrestricted -Scope Process
-• Set-ExecutionPolicy Unrestricted -Force
-• Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Bước 4: Gõ các lệnh sau để cài đặt các thư viện Python:
-• pip install PyQt5
-• pip install requests
-• pip install Cachetools
-Bước 5: Sau khi cài đặt xong các môi trường cần thiết, người dùng có thể kiểm tra 
-xem môi trường đã được cài đặt thành công hay chưa bằng cách mở Command Prompt 
-và chạy lệnh:
-• python -V
-Bước 6: Khi môi trường đã được cài đặt thành công, người dùng có thể chạy chương 
-trình bằng cách nhấn Ctrl + F5.
-Ngoài ra, người dùng và các nhà phát triển cũng cần chú ý đến cấu hình máy tính tối 
-thiểu để ứng dụng có thể hoạt động một cách ổn định:
-• Hệ điều hành: Windows 10.
-• RAM: 4GB.
-• Dung lượng ổ cứng (HDD hoặc SSD): 1GB.
-• CPU: i3 - 2375M (tối thiểu)
+- Bước 1: Truy cập đường link để clone dự án: https://github.com/ThanhhTann/csnda21ttb-duongthanhtan-aistreamer-python
+- Bước 2: Mở dự án bằng Visual Studio Code.
+- Bước 3: Mở Terminal bằng cách nhấn tổ hợp Ctrl + ~.
+- Bước 4: Nhập: 
+- Set-ExecutionPolicy Unrestricted -Scope Process
+- Set-ExecutionPolicy Unrestricted -Force
+- Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+- Bước 4: Gõ các lệnh sau để cài đặt các thư viện Python:
+- pip install PyQt5
+- pip install requests
+- pip install Cachetools
+- Bước 5: Sau khi cài đặt xong các môi trường cần thiết, người dùng có thể kiểm tra xem môi trường đã được cài đặt thành công hay chưa bằng cách mở Command Prompt và chạy lệnh:
+- python -V
+- Bước 6: Khi môi trường đã được cài đặt thành công, người dùng có thể chạy chương trình bằng cách nhấn Ctrl + F5. Ngoài ra, người dùng và các nhà phát triển cũng cần chú ý đến cấu hình máy tính tối thiểu để ứng dụng có thể hoạt động một cách ổn định:
+- Hệ điều hành: Windows 10.
+- RAM: 4GB.
+- Dung lượng ổ cứng (HDD hoặc SSD): 1GB.
+- CPU: i3 - 2375M (tối thiểu)
 ## Tài Liệu Tham Khảo
 - OpenaAI API
 - D-ID API
