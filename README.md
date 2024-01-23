@@ -1,10 +1,10 @@
 <!-- Phần ảnh đầu trang -->
 <a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">
-    <img src="https://i.ibb.co/d5n08bq/Banner-Git-Hub-AI-Streamer-900-x-200-px.gif">
+    <img src="https://i.ibb.co/S3tn7w4/Banner-AI-Streamer-1.gif">
 </a>
 <!-- Phần tiêu đề trang -->
 <a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">
-    <img src="https://i.ibb.co/4mfc8kN/Banner-Git-Hub-AI-Streamer-900-x-200-px-900-x-50-px.gif">
+    <img src="https://i.ibb.co/xSD8JqY/Banner-AI-Streamer-2.gif">
 </a>
 <!-- Phần cài đặt các tiện ích -->
 <p align="center">
