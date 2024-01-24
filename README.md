@@ -40,16 +40,34 @@ Dự án xây dựng phần mềm AI Streamer là một quá trình nghiên cứ
 
 ## Tính năng chính
 Phần mềm AI Streamer có các tính năng chính sau:
-- Tự động tạo nội dung văn bản sáng tạo với sự hỗ trợ của ChatGPT.
-- Tạo hình ảnh và video khuôn mặt động để giới thiệu sản phẩm.
-- Tích hợp API của D-ID để tạo video chất lượng cao với giọng nói tự nhiên.
-- Giao diện người dùng thân thiện và dễ sử dụng.
+- Tự động tạo nội dung văn bản từ mô hình Generative Pre-trained Transformer 3.5.
+- Tự động chọn giọng nói và video khuôn mặt động để giới thiệu sản phẩm.
+- Tích hợp API của D-ID để tạo video cùng với giọng nói tự nhiên.
+- Tích hợp tùy chọn hình ảnh tùy chỉnh.
 
 ## Thiết lập hệ thống
-- [Đang cập nhật lại toàn bộ nội dung]
+- **Yêu cầu hệ thống:**
+<div align="center">
+
+| Thuộc Tính         | Thông Tin                             |
+| ------------------ | ------------------------------------- |
+| Hệ điều hành       | Windows 10                            |
+| RAM                | 8GB                                   |
+| Dung lượng ổ cứng  | 1GB (HDD hoặc SSD)                    |
+| CPU Intel          | Core i3 - 2375M (1.5GHz)              |
+| CPU AMD            | Ryzen 3 - 1200 (3.1GHz)               |
+
+</div>
+
+
+
 ## Thiết lập môi trường
 - [Đang cập nhật lại toàn bộ nội dung]
 ## Thông tin tác giả
 - [Đang cập nhật lại toàn bộ nội dung]
 ## Thông tin giấy phép
 - [Đang cập nhật lại toàn bộ nội dung]
+
+
+
+
