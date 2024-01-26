@@ -35,7 +35,7 @@
 </p>
 
 ## 🔮Tổng quan
-Dự án xây dựng phần mềm AI Streamer là một quá trình nghiên cứu và triển khai ứng dụng Trí Tuệ Nhân Tạo (AI), sử dụng các công nghệ tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
+Dự án `xây dựng phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo``, sử dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > Lưu ý: Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
 ## 🔮Tính năng chính
@@ -94,7 +94,7 @@ Phần mềm AI Streamer có các tính năng chính sau:
      View advanced system settings
      ```   
    - Chọn tab `Advanced` và click vào nút `Environment Variables`.
-   - Trong phần `User Variables` => chọn biến `Path` => nhấn `Edit`.
+   - Trong phần `User Variables` => chọn `Path` => nhấn `Edit`.
    - Chọn vào nút `New` và thêm đường dẫn:
      ```FFmpegggg
      C:\ffmpeg\bin
