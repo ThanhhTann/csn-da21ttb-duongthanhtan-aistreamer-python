@@ -60,10 +60,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 │       ├── FileBaoCaoDeCuong.pdf         # Phiên bản PDF đề cương báo cáo.
 │       └── FileBaoCaoDoAnCoSoNganh.pdf   # Phiên bản PDF báo cáo cơ sở ngành.
 │
+├── 📄 .gitignore.txt                     # File định nghĩa các thư mục được bỏ qua khi push.
+├── 📄 LICENSE                            # File mô tả giấy phép Apache-2.0 license.
 ├── 📄 README.md                          # File mô tả dự án và hướng dẫn sử dụng.
-├── 📄 .gitignore.txt                     # File định nghĩa các thư mục được bỏ qua khi `push`.
 └── 📄 requirements.txt                   # File danh sách các thư viện của dự án.
-
 ```
 
 ## 🔮Tính năng chính
