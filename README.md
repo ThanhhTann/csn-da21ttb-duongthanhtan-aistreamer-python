@@ -35,7 +35,7 @@
 </p>
 
 ## 🔮Tổng quan
-Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, sử dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
+Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > Lưu ý: Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
 ## 🔮Tính năng chính
@@ -59,7 +59,6 @@ Phần mềm AI Streamer có các tính năng chính sau:
 
 </div>
 
-
 - **Cài đặt Python:**
    - Tải bản cài đặt Python 3.12.1: [Tại đây!!](https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe).
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -77,6 +76,7 @@ Phần mềm AI Streamer có các tính năng chính sau:
      ```K-Lite
      K-Lite Codec Pack
      ```
+   - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công..
 
 - **Cài đặt FFmpeg:**
    - Tải bản cài đặt FFmpeg 6.1.1: [Tại đây!!](https://bom.so/2Thd6G). 
@@ -101,8 +101,43 @@ Phần mềm AI Streamer có các tính năng chính sau:
      ``` 
    - Nhấn `OK` để lưu thay đổi.
 
+- **Cài đặt Visual Studio Code**
+   - Tải bản cài đặt Visual Studio Code: [Tại đây!!](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user). 
+   - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
+   - Sau khi cài đặt xong, mở Visual Studio Code và nhấn tổ hợp phím: `Ctrl + Shift + X` để mở trình quản lý `Extensions`.
+   - Trong trình quản lý `Extensions`, tìm kiếm và cài đặt hai `Extensions` quan trọng cho dự án:
+     ```Python
+     Python
+     ```    
+     ```Pylance
+     Pylance
+     ```
+   - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.      
 ## 🔮Thiết lập môi trường
-- [Đang cập nhật lại toàn bộ nội dung]
+- **Bước 1:** Mở file `main.py` trong Visual Studio Code.
+- **Bước 2:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code.  
+- **Bước 3:** Khởi tạo môi trường ảo `(lần đầu cài đặt chương trình)`.
+     ```venv
+     python -m venv venv
+     ```
+- **Bước 4:** Thiết lập chính sách thực thi.
+     ```venv
+     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+     ```
+- **Bước 5:** Kích hoạt môi trường ảo.
+     ```Scripts
+     venv\Scripts\activate
+     ```
+- **Bước 6:** Cập nhật pip.
+     ```pip
+     .\venv\Scripts\python.exe -m pip install --upgrade pip
+     ```
+- **Bước 7:** Cài đặt các thư viện trong file requirements.txt.
+     ```pip
+     pip install -r requirements.txt --upgrade
+     ```
+- **Bước 8:** Nhấn `Ctrl+F5` để chạy chương trình.
+> Lưu ý: Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 ## 🔮Thông tin tác giả
 - [Đang cập nhật lại toàn bộ nội dung]
 ## 🔮Thông tin giấy phép
