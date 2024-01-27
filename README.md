@@ -45,24 +45,25 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 📦 csn-da21ttb-duongthanhtan-aistreamer-python
 │
 ├── 📂 src
-│   └── main.py
+│   └── main.py                           # File mã nguồn chính của dự án.
 │
 ├── 📂 progress-report
-│   └── Progress_Report.docx
+│   └── Progress_Report.docx              # File báo cáo tiến độ dự án.
 │
 ├── 📂 thesis
 │   ├── 📂 abs
-│   │   └── SileBaoCaoCoSoNganh.pptx
+│   │   └── SileBaoCaoCoSoNganh.pptx      # File PowerPoint báo cáo cơ sở ngành.
 │   ├── 📂 doc
-│   │   ├── FileBaoCaoDeCuong.docx
-│   │   └── FileBaoCaoDoAnCoSoNganh.docx
+│   │   ├── FileBaoCaoDeCuong.docx        # File Word đề cương báo cáo.
+│   │   └── FileBaoCaoDoAnCoSoNganh.docx  # File Word báo cáo cơ sở ngành.
 │   └── 📂 pdf
-│       ├── FileBaoCaoDeCuong.pdf
-│       └── FileBaoCaoDoAnCoSoNganh.pdf
+│       ├── FileBaoCaoDeCuong.pdf         # Phiên bản PDF đề cương báo cáo.
+│       └── FileBaoCaoDoAnCoSoNganh.pdf   # Phiên bản PDF báo cáo cơ sở ngành.
 │
-├── 📄 README.md
-├── 📄 .gitignore.txt
-└── 📄 requirements.txt
+├── 📄 README.md                          # File mô tả dự án và hướng dẫn sử dụng.
+├── 📄 .gitignore.txt                     # File định nghĩa các thư mục được bỏ qua khi `push`.
+└── 📄 requirements.txt                   # File danh sách các thư viện của dự án.
+
 ```
 
 ## 🔮Tính năng chính
@@ -81,7 +82,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 | Hệ điều hành       | Windows 10                            |
 | RAM                | 8GB `(1600 MHz)`                      |
 | Dung lượng ổ cứng  | 1GB `(HDD hoặc SSD)`                  |
-| CPU Intel          | Core i3 - 2375 `(1.5GHz)`             |
+| CPU Intel          | Core i3 - 2375M `(1.5GHz)`            |
 | CPU AMD            | Ryzen 3 - 1200 `(3.1GHz)`             |
 
 </div>
@@ -103,7 +104,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```K-Lite
      K-Lite Codec Pack
      ```
-   - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công..
+   - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công.
 
 - **Cài đặt FFmpeg:**
    - Tải bản cài đặt FFmpeg 6.1.1: [Tại đây!!](https://bom.so/2Thd6G). 
@@ -162,7 +163,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```pip
      .\venv\Scripts\python.exe -m pip install --upgrade pip
      ```
-   - **Bước 8:** Cài đặt các thư viện trong file requirements.txt.
+   - **Bước 8:** Cài đặt các thư viện trong file `requirements.txt`.
      ```pip
      pip install -r requirements.txt --upgrade
      ```
@@ -179,5 +180,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ## 🔮Thông tin tác giả
 - [Đang cập nhật lại toàn bộ nội dung]
 ## 🔮Thông tin giấy phép
-- [Đang cập nhật lại toàn bộ nội dung]
+> Vietnamese
+- Dự án này được cấp phép theo Giấy phép Apache, Phiên bản 2.0 - xem tệp [LICENSE](LICENSE) để biết chi tiết.
+> English
+- This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
 
