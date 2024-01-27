@@ -112,7 +112,8 @@ Phần mềm AI Streamer có các tính năng chính sau:
      ```Pylance
      Pylance
      ```
-   - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.      
+   - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
+
 ## 🔮Thiết lập môi trường
 - **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.
@@ -140,6 +141,7 @@ Phần mềm AI Streamer có các tính năng chính sau:
      ```
    - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
 > Lưu ý: Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
+
 - **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
