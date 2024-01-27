@@ -38,7 +38,7 @@
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > Lưu ý: Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
-## 🔮 Cấu trúc thư mục
+## 🔮Thông tin cấu trúc thư mục
 > Dưới đây là cấu trúc thư mục của dự án:
 ```plaintext
 📦 csn-da21ttb-duongthanhtan-aistreamer-python
@@ -145,7 +145,7 @@ Phần mềm AI Streamer có các tính năng chính sau:
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở `Terminal`.  
-   - **Bước 4:** Khởi tạo môi trường ảo `(lần đầu cài đặt chương trình)`.
+   - **Bước 4:** Khởi tạo môi trường ảo `(Lần đầu cài đặt chương trình)`.
      ```venv
      python -m venv venv
      ```
@@ -173,6 +173,7 @@ Phần mềm AI Streamer có các tính năng chính sau:
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
+  
 ## 🔮Thông tin tác giả
 - [Đang cập nhật lại toàn bộ nội dung]
 ## 🔮Thông tin giấy phép
