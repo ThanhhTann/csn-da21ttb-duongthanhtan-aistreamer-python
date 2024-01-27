@@ -114,30 +114,37 @@ Phần mềm AI Streamer có các tính năng chính sau:
      ```
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.      
 ## 🔮Thiết lập môi trường
-- **Bước 1:** Mở file `main.py` trong Visual Studio Code.
-- **Bước 2:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code.  
-- **Bước 3:** Khởi tạo môi trường ảo `(lần đầu cài đặt chương trình)`.
+- **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
+   - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.
+   - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
+   - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code.  
+   - **Bước 4:** Khởi tạo môi trường ảo `(lần đầu cài đặt chương trình)`.
      ```venv
      python -m venv venv
      ```
-- **Bước 4:** Thiết lập chính sách thực thi.
+   - **Bước 5:** Thiết lập chính sách thực thi.
      ```venv
      Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
      ```
-- **Bước 5:** Kích hoạt môi trường ảo.
+   - **Bước 6:** Kích hoạt môi trường ảo.
      ```Scripts
      venv\Scripts\activate
      ```
-- **Bước 6:** Cập nhật pip.
+   - **Bước 7:** Cập nhật pip.
      ```pip
      .\venv\Scripts\python.exe -m pip install --upgrade pip
      ```
-- **Bước 7:** Cài đặt các thư viện trong file requirements.txt.
+   - **Bước 8:** Cài đặt các thư viện trong file requirements.txt.
      ```pip
      pip install -r requirements.txt --upgrade
      ```
-- **Bước 8:** Nhấn `Ctrl+F5` để chạy chương trình.
+   - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
 > Lưu ý: Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
+- **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
+   - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
+   - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
+   - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
+   - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
 ## 🔮Thông tin tác giả
 - [Đang cập nhật lại toàn bộ nội dung]
 ## 🔮Thông tin giấy phép
