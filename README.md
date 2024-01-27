@@ -38,6 +38,32 @@
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > Lưu ý: Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
+## 🔮 Cấu trúc thư mục
+> Dưới đây là cấu trúc thư mục của dự án:
+```plaintext
+📦 csn-da21ttb-duongthanhtan-aistreamer-python
+│
+├── 📂 src
+│   └── main.py
+│
+├── 📂 progress-report
+│   └── Progress_Report.docx
+│
+├── 📂 thesis
+│   ├── 📂 abs
+│   │   └── SileBaoCaoCoSoNganh.pptx
+│   ├── 📂 doc
+│   │   ├── FileBaoCaoDeCuong.docx
+│   │   └── FileBaoCaoDoAnCoSoNganh.docx
+│   └── 📂 pdf
+│       ├── FileBaoCaoDeCuong.pdf
+│       └── FileBaoCaoDoAnCoSoNganh.pdf
+│
+├── 📄 README.md
+├── 📄 .gitignore.txt
+└── 📄 requirements.txt
+```
+
 ## 🔮Tính năng chính
 Phần mềm AI Streamer có các tính năng chính sau:
 - Tự động tạo nội dung văn bản từ mô hình `Generative Pre-trained Transformer 3.5 Turbo`.
