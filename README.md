@@ -37,7 +37,7 @@
 ## 🔮Tổng quan
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > [!IMPORTANT] 
-> ☂️ Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
+> Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
 ## 🔮Thông tin cấu trúc thư mục
 > Dưới đây là cấu trúc thư mục của dự án:
@@ -175,10 +175,14 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
 > [!IMPORTANT] 
-> ☂️ Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
+> Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
 ## 🔮Thông tin tác giả
-- [Đang cập nhật lại toàn bộ nội dung]
+> [!IMPORTANT] 
+> Đây là dự án được phát triển bởi [ThanhhTann](https://github.com/ThanhhTann) và [baoanth](https://github.com/baoanth). 
+- **Author:** ThanhhTann
+- **Email:** 110121097@st.tvu.edu.vn
+- **Phone:** 0788942313
 ## 🔮Thông tin giấy phép
 > Vietnamese
 - Dự án này được cấp phép theo Giấy phép Apache, Phiên bản 2.0 - xem tệp [LICENSE](LICENSE) để biết chi tiết.
