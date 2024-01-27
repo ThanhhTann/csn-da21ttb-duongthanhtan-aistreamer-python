@@ -167,15 +167,14 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      pip install -r requirements.txt --upgrade
      ```
    - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
-> [!IMPORTANT] 
-> ☂️ Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
 > **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
-  
+> [!IMPORTANT] 
+> ☂️ Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 ## 🔮Thông tin tác giả
 - [Đang cập nhật lại toàn bộ nội dung]
 ## 🔮Thông tin giấy phép
