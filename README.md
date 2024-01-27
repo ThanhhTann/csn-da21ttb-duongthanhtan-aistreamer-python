@@ -116,9 +116,9 @@ Phần mềm AI Streamer có các tính năng chính sau:
 
 ## 🔮Thiết lập môi trường
 - **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
-   - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.
-   - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
-   - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code.  
+   - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K` trong Visual Studio Code.
+   - **Bước 2:** Mở file `main.py`.
+   - **Bước 3:** Nhấn `Ctrl + ~` để mở `Terminal`.  
    - **Bước 4:** Khởi tạo môi trường ảo `(lần đầu cài đặt chương trình)`.
      ```venv
      python -m venv venv
