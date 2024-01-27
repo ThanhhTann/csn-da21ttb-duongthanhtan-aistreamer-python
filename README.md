@@ -36,6 +36,7 @@
 
 ## 🔮Tổng quan
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
+> [!IMPORTANT] 
 > Lưu ý: Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
 ## 🔮Thông tin cấu trúc thư mục
@@ -166,6 +167,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      pip install -r requirements.txt --upgrade
      ```
    - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
+> [!IMPORTANT] 
 > Lưu ý: Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
 > **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
@@ -179,5 +181,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ## 🔮Thông tin giấy phép
 - [Đang cập nhật lại toàn bộ nội dung]
 
-
+> [!IMPORTANT]  
+> 1. Indexing != Ranking. This will not help your content/page rank on Google, it'll just let Google know about the existence of all your pages.
+> 2. This script uses [Google Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart).
 
