@@ -34,6 +34,13 @@
     </a>
 </p>
 
+<!-- Phần giấy phép -->
+<p align="center"> 
+    <a href="https://bom.so/0GEFbE">
+        <img src="https://img.shields.io/badge/Apache%20License-Version%202.0-%235014FF">
+    </a>
+</p>
+
 ## 🔮Tổng quan
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > [!IMPORTANT] 
