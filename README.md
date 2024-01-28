@@ -185,13 +185,14 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ---
 
 ## 🔮 Thông Tin Giấy Phép
-Dự án này được cấp phép theo **Giấy phép Apache, Phiên bản 2.0**. Để biết thêm chi tiết, vui lòng xem tệp LICENSE.
+Dự án này được cấp phép theo **Giấy phép Apache, Phiên bản 2.0**.
+Để biết thêm chi tiết, vui lòng xem tệp [LICENSE]().
 
 ---
 
 ## 🔮 License Information
 
-This project is licensed under the **Apache License, Version 2.0**. For more details, please see the LICENSE file.
+This project is licensed under the **Apache License, Version 2.0**. 
+For more details, please see the [LICENSE](LICENSE) file.
 
 ---
-
