@@ -134,10 +134,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Sau khi cài đặt xong, mở Visual Studio Code và nhấn tổ hợp phím: `Ctrl + Shift + X` để mở trình quản lý `Extensions`.
    - Trong trình quản lý `Extensions`, tìm kiếm và cài đặt hai `Extensions` quan trọng cho dự án:
-     ```Python
+     ```Pythonn
      Python
-     ```    
-     ```Pylance
      Pylance
      ```
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
@@ -183,9 +181,17 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 - **Author:** ThanhhTann
 - **Email:** 110121097@st.tvu.edu.vn
 - **Phone:** 0788942313
-## 🔮Thông tin giấy phép
-> Vietnamese
-- Dự án này được cấp phép theo Giấy phép Apache, Phiên bản 2.0 - xem tệp [LICENSE](LICENSE) để biết chi tiết.
-> English
-- This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔮 Thông Tin Giấy Phép
+Dự án này được cấp phép theo **Giấy phép Apache, Phiên bản 2.0**. Để biết thêm chi tiết, vui lòng xem tệp LICENSE.
+
+---
+
+## 🔮 License Information
+
+This project is licensed under the **Apache License, Version 2.0**. For more details, please see the LICENSE file.
+
+---
 
