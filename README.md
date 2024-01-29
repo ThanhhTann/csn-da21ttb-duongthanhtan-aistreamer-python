@@ -180,7 +180,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
-> [!WARRING] 
+> [!WARNING] 
 > Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
 ## 🔮Thông tin tác giả
