@@ -46,6 +46,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > [!IMPORTANT] 
 > Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
+---
+
 ## 🔮Thông tin cấu trúc thư mục
 > Dưới đây là cấu trúc thư mục của dự án:
 ```plaintext
@@ -79,6 +81,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 - Tự động chọn giọng nói và video khuôn mặt động để giới thiệu sản phẩm.
 - Tích hợp `API` của `D-ID` để tạo video cùng với giọng nói tự nhiên.
 - Tích hợp tùy chọn hình ảnh tùy chỉnh.
+
+---
 
 ## 🔮Thiết lập hệ thống
 - **Cấu hình tối thiểu:**
@@ -147,6 +151,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
 
+---
+
 ## 🔮Thiết lập môi trường
 > [!NOTE]
 > **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
@@ -183,6 +189,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > [!WARNING] 
 > Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
+---
+
 ## 🔮Thông tin tác giả
 - **Author:** ThanhhTann
 - **Email:** 110121097@st.tvu.edu.vn
@@ -193,12 +201,6 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ---
 
 ## 🔮 Thông Tin Giấy Phép
-Dự án này được cấp phép theo **Giấy phép Apache, Phiên bản 2.0**.
-Để biết thêm chi tiết, vui lòng xem tệp [LICENSE]().
-
----
-
-## 🔮 License Information
 This project is licensed under the **Apache License, Version 2.0**. 
 For more details, please see the [LICENSE](LICENSE) file.
 
