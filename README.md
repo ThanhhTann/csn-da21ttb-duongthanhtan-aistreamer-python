@@ -55,7 +55,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 │   └── main.py                           # File mã nguồn chính của dự án.
 │
 ├── 📂 progress-report
-│   └── Progress_Report.docx              # File báo cáo tiến độ dự án.
+│   └── Progress_Report.docx              # File Word báo cáo tiến độ dự án.
 │
 ├── 📂 thesis
 │   ├── 📂 abs
@@ -148,6 +148,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
 
 ## 🔮Thiết lập môi trường
+> [!NOTE]
 > **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
@@ -173,13 +174,13 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      pip install -r requirements.txt --upgrade
      ```
    - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
-
+> [!NOTE]
 > **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
-> [!IMPORTANT] 
+> [!NOTE] 
 > Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
 ## 🔮Thông tin tác giả
