@@ -184,11 +184,11 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `main.py` trước khi tiến hành các bước tiếp theo.
 
 ## 🔮Thông tin tác giả
-> [!IMPORTANT] 
-> Đây là dự án được phát triển bởi [ThanhhTann](https://github.com/ThanhhTann) và [baoanth](https://github.com/baoanth). 
 - **Author:** ThanhhTann
 - **Email:** 110121097@st.tvu.edu.vn
 - **Phone:** 0788942313
+> [!IMPORTANT] 
+> Đây là dự án được phát triển bởi [ThanhhTann](https://github.com/ThanhhTann) và [baoanth](https://github.com/baoanth). 
 
 ---
 
