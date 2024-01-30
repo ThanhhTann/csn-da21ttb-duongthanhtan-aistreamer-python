@@ -41,12 +41,12 @@
     </a>
 </p>
 
-## 🔮Tổng quan
+## 🔮Tổng Quan
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
 > [!NOTE] 
 > Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
-## 🔮Thông tin cấu trúc thư mục
+## 🔮Thông Tin Cấu Trúc Thư Mục
 > Dưới đây là cấu trúc thư mục của dự án:
 ```plaintext
 📦 csn-da21ttb-duongthanhtan-aistreamer-python
@@ -80,7 +80,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 - Tích hợp `API` của `D-ID` để tạo video cùng với giọng nói tự nhiên.
 - Tích hợp tùy chọn hình ảnh tùy chỉnh.
 
-## 🔮Thiết lập hệ thống
+## 🔮Thiết Lập Hệ Thống
 - **Cấu hình tối thiểu:**
 <div align="center">
 
@@ -147,7 +147,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
 
-## 🔮Thiết lập môi trường
+## 🔮Thiết Lập Môi Trường
 > [!NOTE]
 > **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K` trong Visual Studio Code.
@@ -185,7 +185,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 ---
 
-## 🔮Thông tin tác giả
+## 🔮Thông Tin Tác Giả
 - **Author:** ThanhhTann
 - **Email:** 110121097@st.tvu.edu.vn
 - **Phone:** 0788942313
