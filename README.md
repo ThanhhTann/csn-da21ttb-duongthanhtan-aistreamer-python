@@ -73,7 +73,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 └── 📄 requirements.txt                   # File danh sách các thư viện của dự án.
 ```
 
-## 🔮Tính năng chính
+## 🔮Tính Năng Chính
 > Phần mềm AI Streamer có các tính năng chính sau:
 - Tự động tạo nội dung văn bản từ mô hình `Generative Pre-trained Transformer 3.5 Turbo`.
 - Tự động chọn giọng nói và video khuôn mặt động để giới thiệu sản phẩm.
