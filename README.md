@@ -94,7 +94,9 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </div>
 
-- **Cài đặt Python:**
+> [!NOTE]
+> **Cài đặt Python:**
+
    - Tải bản cài đặt Python 3.12.1: [Tại đây!!](https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe).
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Trong trình cài đặt, chọn tùy chọn `Add Python 3.12 to PATH`.
@@ -104,7 +106,9 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      python --version
      ```
 
-- **Cài đặt K-Lite Codec Pack:**
+> [!NOTE]
+> **Cài đặt K-Lite Codec Pack:**
+
    - Tải bản cài đặt K-Lite Codec Pack 18.0.5: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1805_Full.exe). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Sử dụng tổ hợp phím `Win + S`, để mở thanh tìm kiếm trên Windows và gõ:
@@ -113,7 +117,9 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```
    - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công.
 
-- **Cài đặt FFmpeg:**
+> [!NOTE]
+> **Cài đặt FFmpeg:**
+
    - Tải bản cài đặt FFmpeg 6.1.1: [Tại đây!!](https://bom.so/2Thd6G). 
    - Sau khi tải xong, giải nén thư mục `ffmpeg-6.1.1` bằng cách chọn `Extract Here`.
    - Đổi tên thư mục vừa giải nén thành:
@@ -136,7 +142,9 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ``` 
    - Nhấn `OK` để lưu thay đổi.
 
-- **Cài đặt Visual Studio Code**
+> [!NOTE]
+> **Cài đặt Visual Studio Code**
+
    - Tải bản cài đặt Visual Studio Code: [Tại đây!!](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Sau khi cài đặt xong, mở Visual Studio Code và nhấn tổ hợp phím: `Ctrl + Shift + X` để mở trình quản lý `Extensions`.
