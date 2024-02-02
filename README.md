@@ -189,7 +189,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
 > [!WARNING] 
-> Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục chứa file `csn-da21ttb-duongthanhtan-aistreamer-python` trước khi tiến hành các bước tiếp theo.
+> Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục `csn-da21ttb-duongthanhtan-aistreamer-python` trước khi tiến hành các bước tiếp theo.
 
 ---
 
