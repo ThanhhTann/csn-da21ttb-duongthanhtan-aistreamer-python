@@ -102,7 +102,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Trong trình cài đặt, chọn tùy chọn `Add Python 3.12 to PATH`.
    - Nhấn `Install Now` để bắt đầu quá trình cài đặt.
    - Mở `Command Prompt` và kiểm tra phiên bản Python đã cài đặt:
-     ```Python
+     ```console
      python --version
      ```
 
@@ -112,7 +112,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Tải bản cài đặt K-Lite Codec Pack 18.0.5: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1805_Full.exe). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Sử dụng tổ hợp phím `Win + S`, để mở thanh tìm kiếm trên Windows và gõ:
-     ```K-Lite
+     ```console
      K-Lite Codec Pack
      ```
    - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công.
@@ -123,21 +123,21 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Tải bản cài đặt FFmpeg 6.1.1: [Tại đây!!](https://bom.so/2Thd6G). 
    - Sau khi tải xong, giải nén thư mục `ffmpeg-6.1.1` bằng cách chọn `Extract Here`.
    - Đổi tên thư mục vừa giải nén thành:
-     ```FFmpeg
+     ```console
      ffmpeg
      ```  
    - Di chuyển thư mục `ffmpeg` vào `ổ đĩa C`, nên đường dẫn sẽ là:
-     ```FFmpegg
+     ```console
      C:\ffmpeg
      ```  
    - Mở thanh tìm kiếm trên Windows bằng cách nhấn tổ hợp phím `Win + S` và gõ:
-     ```FFmpeggg
+     ```console
      View advanced system settings
      ```   
    - Chọn tab `Advanced` và click vào nút `Environment Variables`.
    - Trong phần `User Variables` => chọn `Path` => nhấn `Edit`.
    - Chọn vào nút `New` và thêm đường dẫn:
-     ```FFmpegggg
+     ```console
      C:\ffmpeg\bin
      ``` 
    - Nhấn `OK` để lưu thay đổi.
@@ -149,7 +149,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Sau khi cài đặt xong, mở Visual Studio Code và nhấn tổ hợp phím: `Ctrl + Shift + X` để mở trình quản lý `Extensions`.
    - Trong trình quản lý `Extensions`, tìm kiếm và cài đặt hai `Extensions` quan trọng cho dự án:
-     ```Pythonn
+     ```console
      Python
      Pylance
      ```
@@ -162,23 +162,23 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - **Bước 2:** Mở file `main.py`.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở `Terminal`.  
    - **Bước 4:** Khởi tạo môi trường ảo `(Lần đầu cài đặt chương trình)`.
-     ```venv
+     ```console
      python -m venv venv
      ```
    - **Bước 5:** Thiết lập chính sách thực thi.
-     ```venv
+     ```console
      Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
      ```
    - **Bước 6:** Kích hoạt môi trường ảo.
-     ```Scripts
+     ```console
      venv\Scripts\activate
      ```
    - **Bước 7:** Cập nhật pip.
-     ```pip
+     ```console
      .\venv\Scripts\python.exe -m pip install --upgrade pip
      ```
    - **Bước 8:** Cài đặt các thư viện trong file `requirements.txt`.
-     ```pip
+     ```console
      pip install -r requirements.txt --upgrade
      ```
    - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
