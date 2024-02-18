@@ -23,11 +23,11 @@
 </p>
 <!-- Phần điều khoản -->
 <p align="center"> 
-    <a href="https://files2.codecguide.com/K-Lite_Codec_Pack_1805_Full.exe">
-        <img src="https://img.shields.io/badge/K--Lite-18.0.5-%235014FF">
+    <a href="https://files2.codecguide.com/K-Lite_Codec_Pack_1810_Full.exe">
+        <img src="https://img.shields.io/badge/K--Lite-18.1.0-%235014FF">
     </a>
-    <a href="https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe">
-        <img src="https://img.shields.io/badge/Python-3.12.1-%235014FF" alt="Python">
+    <a href="https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe">
+        <img src="https://img.shields.io/badge/Python-3.12.2-%235014FF" alt="Python">
     </a>
     <a href="https://bom.so/2Thd6G">
         <img src="https://img.shields.io/badge/FFmpeg-6.1.1-%235014FF" alt="FFmpeg">
@@ -197,13 +197,13 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 - **Author:** ThanhhTann
 - **Phone:** 0788942313
 - **Email:** 110121097@st.tvu.edu.vn
-> [!NOTE]
+> [!WARNING]
 > Đây là dự án được phát triển bởi [ThanhhTann](https://github.com/ThanhhTann) và [baoanth](https://github.com/baoanth). 
 
 ---
 
 ## 🔮 Thông Tin Giấy Phép
-> [!NOTE]
+> [!NWARNING]
 > This project is licensed under the **Apache License, Version 2.0**. 
 For more details, please see the [LICENSE](LICENSE) file.
 
