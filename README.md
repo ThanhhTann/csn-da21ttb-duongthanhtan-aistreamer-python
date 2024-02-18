@@ -97,7 +97,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > [!NOTE]
 > **Cài đặt Python:**
 
-   - Tải bản cài đặt Python 3.12.1: [Tại đây!!](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe).
+   - Tải bản cài đặt Python: [Tại đây!!](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe).
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Trong trình cài đặt, chọn tùy chọn `Add Python 3.12 to PATH`.
    - Nhấn `Install Now` để bắt đầu quá trình cài đặt.
@@ -109,7 +109,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > [!NOTE]
 > **Cài đặt K-Lite Codec Pack:**
 
-   - Tải bản cài đặt K-Lite Codec Pack 18.0.5: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1810_Full.exe). 
+   - Tải bản cài đặt K-Lite Codec Pack: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1810_Full.exe). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Sử dụng tổ hợp phím `Win + S`, để mở thanh tìm kiếm trên Windows và gõ:
      ```console
