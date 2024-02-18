@@ -4,7 +4,7 @@
 </a>
 <!-- Phần tiêu đề trang -->
 <a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">
-    <img src="https://i.ibb.co/qW0w0Pc/Banner-AI-Streamer-2.gif">
+    <img src="https://i.ibb.co/fCSwJx2/Banner-AI-Streamer-2.gif">
 </a>
 <!-- Phần cài đặt các tiện ích -->
 <p align="center">
