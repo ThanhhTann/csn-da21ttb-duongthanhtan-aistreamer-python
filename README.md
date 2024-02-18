@@ -1,6 +1,6 @@
 <!-- Phần ảnh đầu trang -->
 <a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">
-    <img src="https://i.ibb.co/92TJF7R/Banner-AI-Streamer-1.gif">
+    <img src="https://i.ibb.co/Ws7yfPK/Banner-AI-Streamer-1.gif">
 </a>
 <!-- Phần tiêu đề trang -->
 <a href="https://github.com/ThanhhTann/csn-da21ttb-duongthanhtan-aistreamer-python">
