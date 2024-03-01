@@ -158,7 +158,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ## 🔮Thiết Lập Môi Trường
 > [!NOTE]
 > **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
-   - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K` trong Visual Studio Code.
+   - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + K + O` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở `Terminal`.  
    - **Bước 4:** Khởi tạo môi trường ảo `(Lần đầu cài đặt chương trình)`.
@@ -203,7 +203,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ---
 
 ## 🔮 Thông Tin Giấy Phép
-> [!NWARNING]
+> [!WARNING]
 > This project is licensed under the **Apache License, Version 2.0**. 
 For more details, please see the [LICENSE](LICENSE) file.
 
