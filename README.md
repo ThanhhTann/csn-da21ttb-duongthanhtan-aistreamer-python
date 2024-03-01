@@ -14,6 +14,7 @@
     <a href="https://platform.openai.com/overview">
         <img src="https://img.shields.io/badge/OpenAI-API-%235014FF" alt="Openai">
     </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FThanhhTann%2Fcsn-da21ttb-duongthanhtan-aistreamer-python?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FThanhhTann%2Fcsn-da21ttb-duongthanhtan-aistreamer-python.svg?type=shield"/></a>
     <a href="https://openai.com/policies/terms-of-use">
         <img src="https://img.shields.io/badge/License-OpenAI-%235014FF">
     </a>
@@ -40,6 +41,9 @@
         <img src="https://img.shields.io/badge/Apache%20License-Version%202.0-%235014FF">
     </a>
 </p>
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FThanhhTann%2Fcsn-da21ttb-duongthanhtan-aistreamer-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FThanhhTann%2Fcsn-da21ttb-duongthanhtan-aistreamer-python?ref=badge_large)
 
 ## 🔮Tổng Quan
 Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên cứu và triển khai ứng dụng `Trí Tuệ Nhân Tạo`, ứng dụng các mô hình AI tiên tiến như `ChatGPT` và `D-ID`. Mục đích của dự án là phát triển một phần mềm có khả năng tự tạo ra nội dung đa dạng, hình ảnh và video khuôn mặt để giới thiệu và quảng bá sản phẩm, dựa trên dữ liệu đầu vào từ người dùng.
