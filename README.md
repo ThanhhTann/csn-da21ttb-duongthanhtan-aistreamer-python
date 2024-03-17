@@ -50,6 +50,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > Dự án đang trong giai đoạn nghiên cứu và thử nghiệm, hiệu suất và ứng dụng thực tế của dự án chưa được xác minh và đánh giá toàn diện. Tuy nhiên, dự án này đang tiếp tục được cải tiến và phát triển với hy vọng sẽ đóng góp một phần quan trọng cho lĩnh vực thương mại điện tử trong tương lai.
 
 ## 🔮Thông Tin Cấu Trúc Thư Mục
+
+> [!NOTE] 
 > Dưới đây là cấu trúc thư mục của dự án:
 ```plaintext
 📦 csn-da21ttb-duongthanhtan-aistreamer-python
@@ -77,6 +79,8 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 ```
 
 ## 🔮Tính Năng Chính
+
+> [!NOTE] 
 > Phần mềm AI Streamer có các tính năng chính sau:
 - Tự động tạo nội dung văn bản từ mô hình `Generative Pre-trained Transformer 3.5 Turbo`.
 - Tự động chọn giọng nói và video khuôn mặt động để giới thiệu sản phẩm.
@@ -84,7 +88,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 - Tích hợp tùy chọn hình ảnh tùy chỉnh.
 
 ## 🔮Thiết Lập Hệ Thống
-- **Cấu hình tối thiểu:**
+
+<details>
+<summary><b>Cấu hình tối thiểu</b></summary>
+
 <div align="center">
 
 | Cấu hình           | Diễn giải                             |
@@ -97,11 +104,17 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </div>
 
+</details>
+
+
+<details>
+<summary><b>Cấu hình môi trường</b></summary>
+
 > [!NOTE]
 > **Cài đặt Python**
 
 <details>
-<summary><b>Xem chi tiết cài đặt Pyhon:</b></summary>
+<summary><b>Xem chi tiết cài đặt Pyhon</b></summary>
 
    - Tải bản cài đặt Python: [Tại đây!!](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe).
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -120,7 +133,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > **Cài đặt K-Lite Codec Pack**
 
 <details>
-<summary><b>Xem chi tiết cài đặt K-Lite Codec Pack:</b></summary>
+<summary><b>Xem chi tiết cài đặt K-Lite Codec Pack</b></summary>
 
    - Tải bản cài đặt K-Lite Codec Pack: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1810_Full.exe). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -180,12 +193,16 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </details>
 
+</div>
+
+</details>
+
 ## 🔮Thiết Lập Môi Trường
 > [!NOTE]
 > **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
 
 <details>
-<summary><b>Xem chi tiết cài đặt</b></summary>
+<summary><b>Xem chi tiết cài đặt cho người mới bắt đầu</b></summary>
 
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + K + O` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
@@ -218,7 +235,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
 
 <details>
-<summary><b>Xem chi tiết cài đặt</b></summary>
+<summary><b>Xem chi tiết cài đặt cho người dùng đã cài đặt dự án</b></summary>
 
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
