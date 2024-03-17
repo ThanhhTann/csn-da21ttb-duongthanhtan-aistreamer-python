@@ -114,8 +114,6 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 <details>
 <summary><b>Xem cấu hình môi trường</b></summary>
 
-> **Cài đặt Python**
-
 <details>
 <summary><b>Hướng dẫn cài đặt Pyhon</b></summary>
 
@@ -130,8 +128,6 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </details>
 
-> **Cài đặt K-Lite Codec Pack**
-
 <details>
 <summary><b>Hướng dẫn cài đặt K-Lite Codec Pack</b></summary>
 
@@ -144,8 +140,6 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công.
 
 </details>
-
-> **Cài đặt FFmpeg**
 
 <details>
 <summary><b>Hướng dẫn cài đặt FFmpeg</b></summary>
@@ -174,8 +168,6 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </details>
 
-> **Cài đặt Visual Studio Code**
-
 <details>
 <summary><b>Hướng dẫn cài đặt Visual Studio Code</b></summary>
 
@@ -190,9 +182,6 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
 
 </details>
-
-</div>
-
 </details>
 
 ## 🔮Thiết Lập Môi Trường
@@ -200,7 +189,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > **Hướng dẫn cài đặt dự án từ đầu cho người mới bắt đầu**
 
 <details>
-<summary><b>Hướng dẫn chi tiết cài đặt dự án từ đầu</b></summary>
+<summary><b>Xem chi tiết</b></summary>
 
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + K + O` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
@@ -233,7 +222,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > **Hướng dẫn khởi chạy lại chương trình cho người dùng đã cài đặt dự án**
 
 <details>
-<summary><b>Hướng dẫn chi tiết khởi chạy lại chương trình</b></summary>
+<summary><b>Xem chi tiết</b></summary>
 
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
