@@ -101,6 +101,9 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 > [!NOTE]
 > **Cài đặt Python:**
 
+<details>
+<summary><b>Xem chi tiết cài đặt Pyhon:</b></summary>
+
    - Tải bản cài đặt Python: [Tại đây!!](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe).
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
    - Trong trình cài đặt, chọn tùy chọn `Add Python 3.12 to PATH`.
@@ -109,6 +112,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```console
      python --version
      ```
+
+</details>
+
+
 
 > [!NOTE]
 > **Cài đặt K-Lite Codec Pack:**
