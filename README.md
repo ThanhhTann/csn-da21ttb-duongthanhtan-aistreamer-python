@@ -89,8 +89,11 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 ## 🔮Thiết Lập Hệ Thống
 
+> [!NOTE] 
+> Cấu hình tối thiểu:
+
 <details>
-<summary><b>Cấu hình tối thiểu</b></summary>
+<summary><b>Xem cấu hình tối thiểu</b></summary>
 
 <div align="center">
 
@@ -103,18 +106,18 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 | CPU AMD            | Ryzen 3 - 1200 `(3.1GHz)`             |
 
 </div>
-
 </details>
 
+> [!NOTE] 
+> Cấu hình môi trường:
 
 <details>
-<summary><b>Cấu hình môi trường</b></summary>
+<summary><b>Xem cấu hình môi trường</b></summary>
 
-> [!NOTE]
 > **Cài đặt Python**
 
 <details>
-<summary><b>Xem chi tiết cài đặt Pyhon</b></summary>
+<summary><b>Hướng dẫn cài đặt Pyhon</b></summary>
 
    - Tải bản cài đặt Python: [Tại đây!!](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe).
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -127,13 +130,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </details>
 
-
-
-> [!NOTE]
 > **Cài đặt K-Lite Codec Pack**
 
 <details>
-<summary><b>Xem chi tiết cài đặt K-Lite Codec Pack</b></summary>
+<summary><b>Hướng dẫn cài đặt K-Lite Codec Pack</b></summary>
 
    - Tải bản cài đặt K-Lite Codec Pack: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1810_Full.exe). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -145,11 +145,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </details>
 
-> [!NOTE]
 > **Cài đặt FFmpeg**
 
 <details>
-<summary><b>Xem chi tiết cài đặt FFmpeg</b></summary>
+<summary><b>Hướng dẫn cài đặt FFmpeg</b></summary>
 
    - Tải bản cài đặt FFmpeg 6.1.1: [Tại đây!!](https://bom.so/2Thd6G). 
    - Sau khi tải xong, giải nén thư mục `ffmpeg-6.1.1` bằng cách chọn `Extract Here`.
@@ -175,11 +174,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 </details>
 
-> [!NOTE]
 > **Cài đặt Visual Studio Code**
 
 <details>
-<summary><b>Xem chi tiết cài đặt Visual Studio Code</b></summary>
+<summary><b>Hướng dẫn cài đặt Visual Studio Code</b></summary>
 
    - Tải bản cài đặt Visual Studio Code: [Tại đây!!](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -199,10 +197,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 ## 🔮Thiết Lập Môi Trường
 > [!NOTE]
-> **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
+> **Hướng dẫn cài đặt dự án từ đầu cho người mới bắt đầu**
 
 <details>
-<summary><b>Xem chi tiết cài đặt cho người mới bắt đầu</b></summary>
+<summary><b>Hướng dẫn chi tiết cài đặt dự án từ đầu</b></summary>
 
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + K + O` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
@@ -232,10 +230,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 </details>
 
 > [!NOTE]
-> **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
+> **Hướng dẫn khởi chạy lại chương trình cho người dùng đã cài đặt dự án**
 
 <details>
-<summary><b>Xem chi tiết cài đặt cho người dùng đã cài đặt dự án</b></summary>
+<summary><b>Hướng dẫn chi tiết khởi chạy lại chương trình</b></summary>
 
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
