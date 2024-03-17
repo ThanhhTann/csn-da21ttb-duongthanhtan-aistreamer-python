@@ -14,7 +14,6 @@
     <a href="https://platform.openai.com/overview">
         <img src="https://img.shields.io/badge/OpenAI-API-%235014FF" alt="Openai">
     </a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FThanhhTann%2Fcsn-da21ttb-duongthanhtan-aistreamer-python?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FThanhhTann%2Fcsn-da21ttb-duongthanhtan-aistreamer-python.svg?type=shield"/></a>
     <a href="https://openai.com/policies/terms-of-use">
         <img src="https://img.shields.io/badge/License-OpenAI-%235014FF">
     </a>
@@ -38,7 +37,7 @@
 <!-- Phần giấy phép -->
 <p align="center"> 
     <a href="https://bom.so/0GEFbE">
-        <img src="https://img.shields.io/badge/Apache%20License-Version%202.0-%235014FF">
+        <img src="https://img.shields.io/badge/Apache%20License-GPL%203.0%20License-5014FF">
     </a>
 </p>
 
@@ -99,7 +98,7 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 </div>
 
 > [!NOTE]
-> **Cài đặt Python:**
+> **Cài đặt Python**
 
 <details>
 <summary><b>Xem chi tiết cài đặt Pyhon:</b></summary>
@@ -118,7 +117,10 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 
 > [!NOTE]
-> **Cài đặt K-Lite Codec Pack:**
+> **Cài đặt K-Lite Codec Pack**
+
+<details>
+<summary><b>Xem chi tiết cài đặt K-Lite Codec Pack:</b></summary>
 
    - Tải bản cài đặt K-Lite Codec Pack: [Tại đây!!](https://files2.codecguide.com/K-Lite_Codec_Pack_1810_Full.exe). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -128,8 +130,13 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```
    - Nếu xuất hiện `Uninstall K-Lite Codec Pack`, điều đó có nghĩa là phần mềm đã được cài đặt thành công.
 
+</details>
+
 > [!NOTE]
-> **Cài đặt FFmpeg:**
+> **Cài đặt FFmpeg**
+
+<details>
+<summary><b>Xem chi tiết cài đặt FFmpeg</b></summary>
 
    - Tải bản cài đặt FFmpeg 6.1.1: [Tại đây!!](https://bom.so/2Thd6G). 
    - Sau khi tải xong, giải nén thư mục `ffmpeg-6.1.1` bằng cách chọn `Extract Here`.
@@ -153,8 +160,13 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ``` 
    - Nhấn `OK` để lưu thay đổi.
 
+</details>
+
 > [!NOTE]
 > **Cài đặt Visual Studio Code**
+
+<details>
+<summary><b>Xem chi tiết cài đặt Visual Studio Code</b></summary>
 
    - Tải bản cài đặt Visual Studio Code: [Tại đây!!](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user). 
    - Mở tệp cài đặt đã tải để bắt đầu quá trình cài đặt.
@@ -166,9 +178,15 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      ```
    - Sau khi cài đặt thành công cả hai `Extensions`, tiến hành sang bước tiếp theo để chạy dự án.
 
+</details>
+
 ## 🔮Thiết Lập Môi Trường
 > [!NOTE]
 > **Hướng dẫn cài đặt dự án cho người mới bắt đầu:**
+
+<details>
+<summary><b>Xem chi tiết cài đặt</b></summary>
+
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + K + O` trong Visual Studio Code.
    - **Bước 2:** Mở file `main.py`.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở `Terminal`.  
@@ -193,12 +211,22 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
      pip install -r requirements.txt --upgrade
      ```
    - **Bước 9:** Nhấn `Ctrl + F5` để chạy chương trình.
+
+</details>
+
 > [!NOTE]
 > **Hướng dẫn chạy lại chương trình cho người dùng đã cài đặt dự án:**
+
+<details>
+<summary><b>Xem chi tiết cài đặt</b></summary>
+
    - **Bước 1:** Mở dự án `csn-da21ttb-duongthanhtan-aistreamer-python` bằng tổ hợp phím tắt `Ctrl + O + K`.   
    - **Bước 2:** Mở file `main.py` trong Visual Studio Code.
    - **Bước 3:** Nhấn `Ctrl + ~` để mở Terminal trong Visual Studio Code. 
    - **Bước 4:** Nhấn `Ctrl + F5` để chạy chương trình.   
+
+</details>
+
 > [!WARNING] 
 > Đảm bảo `Terminal` trong Visual Studio Code đã được mở và đặt tại thư mục `csn-da21ttb-duongthanhtan-aistreamer-python` trước khi tiến hành các bước tiếp theo.
 
@@ -206,16 +234,15 @@ Dự án xây dựng `phần mềm AI Streamer` đang trong quá trình nghiên 
 
 ## 🔮Thông Tin Tác Giả
 - **Author:** ThanhhTann
-- **Phone:** 0788942313
 - **Email:** 110121097@st.tvu.edu.vn
-> [!WARNING]
-> Đây là dự án được phát triển bởi [ThanhhTann](https://github.com/ThanhhTann) và [baoanth](https://github.com/baoanth). 
+> [!NOTE]
+> Dự án được phát triển bởi [ThanhhTann](https://github.com/ThanhhTann) và [baoanth](https://github.com/baoanth). 
 
 ---
 
 ## 🔮 Thông Tin Giấy Phép
-> [!WARNING]
-> This project is licensed under the **Apache License, Version 2.0**. 
-For more details, please see the [LICENSE](LICENSE) file.
+> [!NOTE]
+> Dự án [Ai-Streamer](https://bom.so/FsGqwG) hoạt động dưới sự cấp phép **GPL-3.0 license**. 
+Mọi thông tin chi tiết, mời xem tại [LICENSE](LICENSE).
 
 ---
