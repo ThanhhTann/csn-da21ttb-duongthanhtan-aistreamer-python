@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # Đối với dự án Python
+    directory: "/" # Thư mục gốc của dự án, nơi chứa file requirements.txt
+    schedule:
+      interval: "weekly" # Dependabot sẽ kiểm tra cập nhật hàng tuần
+    open-pull-requests-limit: 5 # Số lượng pull request mở tối đa cùng một lúc
+    ignore:
+      - dependency-name: "os" # 'os' là một thư viện chuẩn của Python và không cần được quản lý bởi Dependabot
